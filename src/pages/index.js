@@ -3,7 +3,7 @@ import { useEffect, useRef, useState } from "react";
 export default function Home() {
   const inputRef = useRef();
   const [shortUrl, setShortUrl] = useState([]);
-  const baseUrl = process.env.VERCEL_URL ? `https://${process.env.VERCEL_URL}` : "http://localhost:3000";
+  const baseUrl = process.env.VERCEL_URL ? `https://${process.env.VERCEL_URL}` : "https://sqrt-nine.vercel.app";
 
   const fetchUrls = async () => {
     try {
