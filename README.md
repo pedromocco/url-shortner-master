@@ -1,40 +1,34 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/pages/api-reference/create-next-app).
+# **sqrt (URL Shortner)**
 
-## Getting Started
+## **Tabla de Contenidos**
+1. [Introducción](#introducción)
+2. [Características Principales](#características-principales)
+4. [Uso](#uso)
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## **Introducción**
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+URL Shortener es una aplicación práctica desarrollada como ejercicio para aprender los conceptos básicos del backend. La aplicación permite a los usuarios acortar URLs largas en enlaces más cortos y manejables. Además, redirige automáticamente a los usuarios al sitio original cuando acceden al enlace acortado.
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+Inicialmente, el proyecto fue desarrollado con **React** y **Node.js**, utilizando **PostgreSQL** como base de datos. Para su presentación como demostración, se migró a **Next.js** y se integró con **Supabase** para simplificar la gestión de la base de datos y mejorar la escalabilidad.
 
-[API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+---
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) instead of React pages.
+## **Características Principales**
+- **Acortamiento de URLs**: Convierte URLs largas en enlaces cortos y fáciles de compartir.
+- **Redirección Automática**: Los enlaces acortados redirigen automáticamente al sitio original.
+- **Persistencia de Datos**: Las URLs acortadas se almacenan en la base de datos para garantizar que no se pierdan.
+  
 
-This project uses [`next/font`](https://nextjs.org/docs/pages/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn-pages-router) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/pages/building-your-application/deploying) for more details.
+---
+## **Uso**
+La aplicación es muy sencilla de usar:
+- Acortar una URL :
+1. Ingresa una URL larga en el campo de texto.
+2. Haz clic en el botón "Acortar".
+3. La aplicación generará un enlace corto que puedes copiar y compartir.
+-Redirección :
+Al acceder al enlace corto, serás redirigido automáticamente al sitio original.
+- Historial de URLs :
+Puedes ver un historial de las URLs acortadas.
