@@ -24,7 +24,7 @@ Inicialmente, el proyecto fue desarrollado con **React** y **Node.js**, utilizan
 ---
 ## **Uso**
 La aplicación es muy sencilla de usar:
-Acortar una URL :
+
 1. Ingresa una URL larga en el campo de texto.
 2. Haz clic en el botón "Acortar".
 3. La aplicación generará un enlace corto que puedes copiar y compartir.
